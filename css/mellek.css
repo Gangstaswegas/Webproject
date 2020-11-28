@@ -1,0 +1,38 @@
+body{
+    background-color: lightseagreen;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    align-content: space-between; 
+}
+nav{
+  
+    background-color: darkslategray;
+    display: flexbox;
+}
+a{
+    color: white;
+    
+}
+a:active{
+    background-color:darkred;
+}
+a:hover{
+    background-color: darkgreen;
+}
+#Mellekoldal{
+    background-color: darkred;
+}
+.kepek{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+}
+.kep1{
+    background-image: url(../img/epites-felujitas.hu_.17dec.jpg);
+}
+.kep2{
+    background-image: url(../img/letöltés.jpg);
+}
