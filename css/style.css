@@ -1,17 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 html, body {
     padding: 0px;
     margin : 0px;
     min-width: 100vw;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
     background-color: darkslategrey;
     text-align: center;
+    
 }
 .flex-container{
     display: flex;
     flex-flow: row;
     align-content: space-between; 
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-evenly;
 }
 .fejleckep{
     background-image: url(../img/komuves-1.jpg);
@@ -24,21 +32,22 @@ body{
 ul{
     list-style: square;
     list-style-position: inside;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 nav{
     font-weight: bold;
     background-color:#bf6f39;
     font-size: 50px;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom:2px solid black ;
 }
 a{
     background-color: #f76300;
     color: white;
     text-decoration: none;
     transition: 250ms ease-in-out ;
-    border: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 a:active{
     background-color:darkred;
@@ -54,15 +63,18 @@ a:hover{
 #Fooldal:hover{
     background-color:darkgreen;
 }
-.kepek{
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 500px;
-    height: 500px;
+
+.flex-container>img{
+    height: 250px;
+    width: 250px;
+    
 }
-.kep1{
-    background-image: url(../img/epites-felujitas.hu_.17dec.jpg);
-}
-.kep2{
-    background-image: url(../img/letöltés.jpg);
+.szoveg{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 127, 32);
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 50px;
 }
